@@ -23,6 +23,16 @@ export default defineConfig({
 				},
 
 				{
+					label: 'Sotib olish',
+					items: [
+						{ label: '🛍 Sotib olish', slug: 'subscription-modul/buy' },
+						{ label: '📆 Obunalar', slug: 'subscription-modul/subscription' },
+						{ label: '🖨 Qurilmalar', slug: 'subscription-modul/devices' },
+						{ label: '📑 Shartnoma', slug: 'subscription-modul/rules' },
+					],
+				},
+
+				{
 					label: 'Asosiy tushunchalar',
 					items: [
 						{ label: '👩‍🍳 Xodimlar', slug: 'core-modul/employees' },
@@ -60,7 +70,7 @@ export default defineConfig({
 					items: [
 						{ label: '🖥 POS qurilma', slug: 'devices-modul/desktop' },
 						{ label: '📱 Mobil ilova', slug: 'devices-modul/mobile' },
-						{ label: '🌐 Ulanish', slug: 'devices-modul/connection' },
+						{ label: '⛓️ Ulanish', slug: 'devices-modul/connection' },
 
 					],
 				},
@@ -85,14 +95,14 @@ export default defineConfig({
 					label: 'Boshqalar',
 					items: [
 						{ label: '🛠 Versiyalar', slug: 'support-modul/changelog' },
-						{ label: '💲 Obuna sotib olish', slug: 'support-modul/demo' },
+						{ label: '🌐 Ijtimoiy tarmoqlar', slug: 'support-modul/socials' },
 						{ label: '📞 Qo\'llab-quvvatlash', slug: 'support-modul/support' },
-						
-					 
+
+
 					],
 				},
 
-				 
+
 
 			],
 		}),
