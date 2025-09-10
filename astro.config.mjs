@@ -56,6 +56,18 @@ export default defineConfig({
 				},
 
 				{
+					label: 'Fastfood tizimi',
+					items: [
+					 
+						{ label: '🌭 Savdo qilish', slug: 'fastfood-modul/sale' },
+						{ label: '🍔 Buyurtmalar', slug: 'fastfood-modul/orders' },
+						{ label: '1️⃣ Navbatlar', slug: 'fastfood-modul/queue' },
+
+					],
+				},
+
+
+				{
 					label: 'Hisobotlar',
 					items: [
 						{ label: '📊 Umumiy ko\'rinish', slug: 'inventory-modul/overview' },
@@ -86,8 +98,8 @@ export default defineConfig({
 				{
 					label: 'FAQ',
 					items: [
-						{ label: '❓ FAQ 1', slug: 'faq-modul/faq-1' },
-						{ label: '❓ FAQ 2', slug: 'faq-modul/faq-2' },
+						{ label: '❓ Sotuv masalasi', slug: 'faq-modul/faq-1' },
+						{ label: '❓ Texnik masalalar', slug: 'faq-modul/faq-2' },
 					],
 				},
 
