@@ -1,11 +1,30 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Tezkor Boshlash
+description: Biznex POS dasturidan foydalanishni boshlash juda oddiy. Quyidagi bosqichlarni bajaring
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+🚀 **Biznex POS dasturidan foydalanishni boshlash juda oddiy!** Quyidagi bosqichlarni bajaring:  
 
-## Further reading
+## 1. Kategoriya qo'shish
+Avvalo mahsulotlaringizni tartibga solish uchun yangi **kategoriya** yarating.  
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+#### Nima uchun kategoriya kerak?
+1. ✨ **User interfeys qulayligi** — mahsulotlar tartibga tushadi va kassir tezroq topa oladi.  
+2. 🖨️ **Printerlarni boshqarish** — har bir kategoriyaga printer biriktiriladi.  
+   - 🍲 *Taomlar* kategoriyasidan buyurtma qilinsa, oshxona printeridan chek chiqadi.  
+   - 🍹 *Ichimliklar* kategoriyasidan buyurtma qilinsa, bar printeridan chek chiqadi.  
+
+Masalan: *Ichimliklar*, *Taomlar*, *Shirinliklar*. 🎂
+
+## 2. Mahsulot qo'shish
+Keyin har bir kategoriya ichiga kerakli **mahsulotlarni qo'shing**.  
+Masalan: 🥤 *Pepsi 0.5L*, 🍛 *Osh*, 🍰 *Napoleon torti*.
+
+## 3. Buyurtma yaratish
+- **Buyurtmalar** bo'limiga o'ting.  
+- ➕ Yangi buyurtma yarating.  
+- ✅ Mahsulotlarni tanlang va buyurtmani yakunlang.  
+
+![Biznex Buyurtma](../../../assets/screenshoots/order_creation.png)
+
+🎉 Shu bilan siz **Biznex POS** yordamida birinchi buyurtmangizni muvaffaqiyatli yaratdingiz!
