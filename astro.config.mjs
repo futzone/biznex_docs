@@ -1,14 +1,20 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-
+	site: 'https://docs.biznex.uz',
 	integrations: [
+		sitemap(),
 		starlight({
 			favicon: '/favicon.svg',
 			title: 'Biznex Docs',
+			defaultLocale: 'root',
+			locales: {
+				root: { label: 'O\'zbekcha', lang: 'uz' },
+			},
 			customCss: [
 				'./src/styles/custom.css',
 			],
