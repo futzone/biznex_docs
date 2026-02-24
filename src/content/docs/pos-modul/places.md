@@ -56,12 +56,57 @@ Ofitsiant (Xodim) mijozga xizmat ko'rsatishni boshlash uchun quyidagi tartibda i
 
 ---
 
+### 💰 Joy Narxi va Foiz Sozlamasi
+
+Har bir joy (zal/qavat) uchun **muhim sozlama** mavjud — buyurtmalarga **xizmat haqi foizi** qo'shilsinmi yoki yo'qmi.
+
+#### "Foiz qo'shilsinmi?" tugmasi
+
+Joy yaratish yoki tahrirlash oynasida **"Foiz qo'shilsinmi?"** tugmasi bor:
+
+| Holat | Ma'nosi |
+|-------|---------|
+| **Yoqilgan** (standart) | Shu joydagi buyurtmalarga **xizmat haqi foizi qo'shiladi** |
+| **O'chirilgan** | Shu joydagi buyurtmalarga **foiz qo'shilmaydi** — faqat taom narxi |
+
+> 💡 **Misol:** "VIP zal" uchun xizmat haqi 10% qo'shilsin, lekin "Olib ketish" uchun foiz kerak emas — shu holatda "Olib ketish" joyida foiz tugmasini o'chiring.
+
+#### Qanday hisoblanadi?
+
+Agar joyda foiz **yoqilgan** bo'lsa:
+
+```
+Buyurtma jami = Taomlar narxi + Xizmat haqi foizi
+```
+
+Masalan: Taomlar 100 000 so'm, xizmat haqi 10%:
+- Xizmat haqi: **10 000 so'm**
+- Jami: **110 000 so'm**
+
+Agar joyda foiz **o'chirilgan** bo'lsa:
+- Faqat taomlar narxi hisoblanadi
+- Jami: **100 000 so'm**
+
+#### Qaysi joylar uchun foizni o'chirish kerak?
+
+| Joy turi | Foiz | Sabab |
+|----------|------|-------|
+| VIP zal | Yoqilgan | Xizmat ko'rsatish bor |
+| Oddiy zal | Yoqilgan | Ofitsiant xizmati bor |
+| Olib ketish (Takeaway) | O'chirilgan | Xizmat ko'rsatish yo'q |
+| Yetkazib berish (Delivery) | Qaroringizga bog'liq | Kuryer xizmati uchun alohida narx bo'lishi mumkin |
+
+> ⚠️ **Xizmat haqi foizi**ning o'zi (masalan, 10%) **Sozlamalar** → **Buyurtma sozlamalari** bo'limida belgilanadi. Joyda faqat shu foiz **qo'shilsinmi yoki yo'qmi** boshqariladi. Batafsil: [Ilova sozlamalari](/config-modul/settings/)
+
+---
+
 ### 💡 Maslahatlar va Foydali Ma'lumotlar
 
 * **Rangli Indikatorlar:** POS interfeysida stollar turli ranglarda ko'rsatilishi mumkin:
     * **Yashil:** Bo'sh stol, yangi buyurtma olishga tayyor.
     * **Kulrang:** Band stol, hozirda mijoz mavjud va buyurtma ochiq.
-* **Xodim Biriktirish:** Har bir stolga (ochiq buyurtmaga) xizmat ko'rsatayotgan xodim (ofitsiant) ma'lumotlari avtomatik biriktiriladi. Bu kelajakda xodimlarning ish samaradorligini tahlil qilish uchun muhimdir.
+* **Xodim Biriktirish:** Har bir stolga (ochiq buyurtmaga) xizmat ko'rsatayotgan xodim (ofitsiant) ma'lumotlari avtomatik biriktiriladi.
+* **Foiz sozlamasini to'g'ri qo'ying:** Olib ketish va yetkazib berish joylari uchun foizni o'chirish muhim — mijozga ortiqcha narx yozilmaydi.
 
 ---
 

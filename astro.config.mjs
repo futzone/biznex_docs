@@ -68,6 +68,18 @@ export default defineConfig({
 
 
 				{
+					label: 'To\'lov va Soliq',
+					items: [
+						{ label: '🧾 Soliq integratsiyasi', slug: 'tax-modul/overview' },
+						{ label: '🖨️ QPOS terminali', slug: 'tax-modul/qpos' },
+						{ label: '📟 Fiskal modul (FM)', slug: 'tax-modul/fiscal-module' },
+						{ label: '🏷️ MXIK kodlar', slug: 'tax-modul/mxik' },
+						{ label: '📦 Paket kodlar', slug: 'tax-modul/package-codes' },
+						{ label: '🧾 Fiskal chek', slug: 'tax-modul/fiscal-receipt' },
+					],
+				},
+
+				{
 					label: 'Hisobotlar',
 					items: [
 						{ label: '📊 Umumiy ko\'rinish', slug: 'inventory-modul/overview' },

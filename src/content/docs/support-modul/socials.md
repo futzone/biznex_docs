@@ -1,11 +1,38 @@
 ---
-title: Example Reference
-description: A reference page in my new Starlight docs site.
+title: Ijtimoiy tarmoqlar
+description: Biznex rasmiy ijtimoiy tarmoq sahifalari
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what you're documenting.
+# **Ijtimoiy tarmoqlar 🌐📱**
 
-## Further reading
+Biznex bilan bog'lanish, yangiliklar va maxsus takliflardan xabardor bo'lish uchun bizning ijtimoiy tarmoqlarga obuna bo'ling!
 
-- Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+---
+
+## **Rasmiy sahifalar 📋**
+
+| Tarmoq | Havola | Kontent |
+|--------|--------|---------|
+| 📷 **Instagram** | @biznex.uz | Yangiliklar, maslahatlar, aksiyalar |
+| 📱 **Telegram** | @biznex_uz | Tezkor yangiliklar, qo'llab-quvvatlash |
+| 🌐 **Veb-sayt** | biznex.uz | To'liq ma'lumot, buyurtma berish |
+
+---
+
+## **Nima uchun obuna bo'lish kerak? 🎯**
+
+- 📢 **Yangiliklar** — yangi versiyalar va funksiyalar haqida birinchi bo'lib bilib oling
+- 🎁 **Aksiyalar** — maxsus chegirmalar va takliflar
+- 💡 **Maslahatlar** — biznesingizni samarali boshqarish uchun foydali maslahatlar
+- 🤝 **Jamiyat** — boshqa Biznex foydalanuvchilari bilan tajriba almashish
+- 📞 **Tezkor yordam** — ijtimoiy tarmoqlar orqali savol berish
+
+---
+
+## **Bog'lanish 📞**
+
+Savollar yoki takliflar bo'lsa — ijtimoiy tarmoqlar orqali yoki qo'llab-quvvatlash xizmatiga murojaat qiling.
+
+---
+
+🎉 Biznex jamoasiga qo'shiling!
