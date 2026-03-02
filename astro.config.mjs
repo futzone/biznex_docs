@@ -86,6 +86,14 @@ export default defineConfig({
 				},
 
 				{
+					label: 'Biznex Cloud',
+					items: [
+						{ label: '☁️ Cloud haqida', slug: 'cloud-modul/overview' },
+						{ label: '🌐 Veb-portal (client.biznex.uz)', slug: 'cloud-modul/web-client' },
+					],
+				},
+
+				{
 					label: 'Hisobotlar',
 					items: [
 						{ label: '📊 Umumiy ko\'rinish', slug: 'inventory-modul/overview' },
