@@ -39,9 +39,14 @@ Biznex POS quyidagi yetkazib berish platformalari bilan integratsiya qo'llab-quv
 
 ## **Soliq integratsiyasi 🧾**
 
-- **QPOS** — soliq terminali bilan to'liq integratsiya
-- **Fiskal modul** — chekni fiskallashtirish
-- **DYS** — Davlat Yagona Server ga avtomatik hisobot
+| Tizim | Tavsifi | Holat |
+|-------|---------|-------|
+| **QPOS** | An'anaviy fiskal tizim — dasturiy kutubxona orqali | Faol |
+| **FDS** | Yangi avlod fiskal xizmat — REST API (port 3449) | Faol |
+| **Fiskal modul (FM)** | USB qurilma — chekni kriptografik imzolaydi | Faol |
+| **OFD** | Fiskal ma'lumotlarni operatorga sinxronizatsiya | Faol |
+
+Sozlamalarda QPOS yoki FDS dan birini tanlash mumkin. Yangi o'rnatishlar uchun **FDS tavsiya etiladi**.
 
 > 📖 Batafsil ma'lumot — [To'lov va Soliq](/tax-modul/overview/) bo'limida.
 

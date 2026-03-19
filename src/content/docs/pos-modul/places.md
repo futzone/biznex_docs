@@ -110,10 +110,16 @@ Agar joyda foiz **o'chirilgan** bo'lsa:
 
 ---
 
-### 🔮 Kelajakdagi Yangilanishlar (Ixtiyoriy)
+### 🖨️ Joy uchun alohida printer sozlamasi
 
-Biz Biznex POS tizimini doimiy ravishda takomillashtirib bormoqdamiz. "Joylar" moduliga quyidagi funksiyalarni qo'shish rejalashtirilgan:
+Har bir joy uchun **alohida printer** belgilash mumkin:
+- Masalan, "VIP zal" uchun alohida printer, "Oddiy zal" uchun boshqa printer
+- Joy yaratish/tahrirlash oynasida **"Printer"** bo'limidan tanlang
+- **"Yopish printeri"** — ish kuni yakunida chop etiladigan printer ham alohida belgilanishi mumkin
 
-* **Vizual Karta:** Zallar va stollarning vizual sxemasini yuklash va POS interfeysida ko'rish imkoniyati.
-* **Stolni Ko'chirish:** Mijozlar boshqa stolga o'tishni so'raganda, ochiq buyurtmani bir stoldan boshqasiga osongina o'tkazish.
+### 💰 Joy uchun alohida narxlash
+
+Joylarga alohida narx sozlamasi qilish mumkin:
+- Joy yaratish oynasida **narx parametrlari**ni belgilang
+- Turli joylar uchun turli xizmat foizlari
 

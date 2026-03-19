@@ -34,10 +34,16 @@ Biznex POS dasturini ishlatish uchun sizga apparatlarni sotib olgan holda **faqa
 
 ---
 
-## **2.3 Kelajakdagi rejalashtirilgan imkoniyatlar 🔜**
+## **2.3 Mavjud integratsiyalar**
 
-1. 🧾 **Soliq bilan integratsiya** – barcha soliq hisobotlari avtomatik.  
-2. 🌐 **Agrigatlar qo‘shish** – Yandex, Uzum Tezkor, Wolt va boshqa platformalar bilan integratsiya.  
+1. 🧾 **Soliq integratsiyasi** – QPOS va FDS fiskal tizimlar, MXIK kodlar, fiskal chek, OFD sinxronizatsiya – **to’liq faol**.
+2. 🍔 **Wolt** – Wolt buyurtmalari integratsiyasi – **faol**.
+3. 🚕 **Yandex Eats** – Yandex buyurtmalari integratsiyasi – **faol**.
+4. 💳 **Onlayn to’lovlar** – Click, Payme, Uzum, Oson, Alif – **faol**.
+
+## **2.4 Kelajakdagi rejalar**
+
+1. 🟣 **Uzum Tezkor** – agrigator integratsiyasi rejalashtirilmoqda.  
 
 ---
 

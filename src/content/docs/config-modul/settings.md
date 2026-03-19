@@ -118,20 +118,79 @@ Xizmat haqi (foiz ustama) fiskal chekda alohida qator sifatida chiqadi. Shuning 
 
 ---
 
-## **Xavfsizlik 🔐**
+## **Fiskal sozlamalar (kengaytirilgan)**
 
-- **PIN-kod uzunligi** — 4 yoki 6 xonali
-- **Avtomatik chiqish** — faolsizlikdan keyin tizimdan chiqish vaqti
+Soliq moduli bilan bog'liq qo'shimcha sozlamalar:
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Fiskal turi** | QPOS yoki FDS — qaysi fiskal tizimni ishlatish |
+| **QQS stavkasi** | QQS foiz qiymati |
+| **OFD sinxronizatsiya** | OFD ga ulanish holati va oxirgi sinxronizatsiya vaqti |
+
+---
+
+## **Omborxona sozlamalari**
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Omborxona turi** | Omborxona ishlash rejimi |
+| **Minimal zaxira** | Ogohlantirish chegarasi |
+
+---
+
+## **Tezkor presetlar**
+
+Tezkor foydalanish uchun oldindan belgilangan qiymatlar:
+
+| Preset turi | Tavsifi | Misol |
+|-------------|---------|-------|
+| **Bekor qilish sabablari** | Buyurtma bekor qilishda tanlash uchun sabablar ro'yxati | "Mijoz fikrini o'zgartirdi", "Xato buyurtma" |
+| **Mahsulot izohlari** | Buyurtmadagi mahsulotga tezkor izoh qo'shish | "Tuzsiz", "Qo'shimcha sous", "Qaynoq" |
+
+Presetlar **Sozlamalar > Tezkor presetlar** bo'limidan boshqariladi.
+
+---
+
+## **Tarmoq sozlamalari**
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **API manzili** | Server ulanish manzili |
+| **Tarmoq interfeysi** | Qaysi tarmoq interfeysi ishlatilishi |
+
+---
+
+## **Kesh boshqaruvi**
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Keshni tozalash** | Vaqtincha ma'lumotlarni o'chirish |
+| **Ma'lumotlar bazasi** | Lokal bazaning hajmi va holati |
+
+---
+
+## **Ilova yangilash**
+
+Biznex POS ni yangilash:
+1. **Sozlamalar > Ilova yangilash** bo'limiga kiring
+2. Yangi versiya mavjud bo'lsa — **"Yangilash"** tugmasi ko'rinadi
+3. Yangilanish avtomatik yuklanadi va o'rnatiladi
+
+---
+
+## **Xavfsizlik**
+
+- **PIN-kod uzunligi** — 4 dan 6 gacha xonali (sozlanadi)
+- **Avtomatik chiqish** — belgilangan vaqt davomida faolsizlikdan keyin tizimdan avtomatik chiqish
 - **API manzili** — server ulanish sozlamalari
 
 ---
 
-## **Maslahatlar 💡**
+## **Maslahatlar**
 
-- **Logo qo'shing:** Chekdagi logo — biznesingiz brendini oshiradi.
-- **Avtomatik chekni yoqing:** Har safar qo'lda chop etish zaruratini yo'qotadi.
-- **Til o'zgartirish:** Xodimlaringiz uchun eng qulay tilni tanlang.
-
----
-
-🎉 Sozlamalarni to'g'ri moslash — qulay ish jarayonining asosi!
+- **Logo qo'shing:** Chekdagi logo — biznesingiz brendini oshiradi
+- **Avtomatik chekni yoqing:** Har safar qo'lda chop etish zaruratini yo'qotadi
+- **Til o'zgartirish:** Xodimlaringiz uchun eng qulay tilni tanlang
+- **Fiskal turini to'g'ri tanlang:** Yangi o'rnatishlar uchun FDS tavsiya etiladi
+- **Presetlar:** Ko'p ishlatiladigan bekor qilish sabablari va izohlarni oldindan kiriting — tezlik oshadi

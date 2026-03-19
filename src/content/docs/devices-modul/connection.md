@@ -204,15 +204,53 @@ Agar remote qurilmada **VPN** (Virtual Private Network) yoqilgan bo'lsa, u tarmo
 
 ---
 
-## **Maslahatlar 💡**
+## **WebSocket real-time sinxronizatsiya**
 
-- **Sifatli router:** Yaxshi router — barqaror tarmoqning asosi.
-- **Statik IP:** POS qurilma va printerlarga statik IP manzil bering — har safar qayta sozlash kerak bo'lmaydi.
-- **Zaxira internet:** Asosiy internet uzilganda mobil internet (hotspot) ishlatish mumkin.
-- **VPN tekshiring:** Har doim remote qurilmalarda VPN o'chirilganligini tekshiring.
-- **Bir tarmoq:** Barcha qurilmalar **bitta router** ga ulangan bo'lishi shart.
-- **Brauzer testi:** Muammo chiqqanda **har doim** avval brauzerda `IP:8080` ni tekshiring — bu 10 soniyada muammo qayerdaligini aniqlaydi.
+Biznex POS da qurilmalar o'rtasida **real-time** sinxronizatsiya **WebSocket** texnologiyasi orqali amalga oshiriladi.
+
+### Qanday ishlaydi?
+
+```
+POS qurilma (Server, port 8081)
+├── WebSocket ← Mobil ilova 1 (ofitsiant)
+├── WebSocket ← Mobil ilova 2 (ofitsiant)
+└── WebSocket ← Kassa 2 (kassir)
+```
+
+- Asosiy POS qurilma **WebSocket server** sifatida ishlaydi (port 8081)
+- Barcha remote qurilmalar avtomatik ulanadi
+- Buyurtma yaratilsa, o'zgartirilsa yoki o'chirilsa — barcha qurilmalarga **darhol** xabar ketadi
+
+### Sinxronizatsiya hodisalari
+
+| Hodisa | Tavsifi |
+|--------|---------|
+| `order_created` | Yangi buyurtma yaratildi |
+| `order_updated` | Buyurtma o'zgartirildi |
+| `order_deleted` | Buyurtma o'chirildi |
+
+### Avtomatik qayta ulanish
+
+Agar aloqa uzilsa, qurilma avtomatik qayta ulanishga harakat qiladi:
+- 1 soniyadan so'ng 1-urinish
+- 2 soniyadan so'ng 2-urinish
+- 4 soniyadan so'ng 3-urinish
+- Maksimal 15 soniya oraliqda urinishlar davom etadi
+
+### Offlayn navbat (Offline queue)
+
+Internet yoki tarmoq uzilganda:
+- Barcha buyurtma o'zgarishlari **lokal navbatda** saqlanadi
+- Aloqa qaytganda navbatdagi o'zgarishlar **avtomatik yuboriladi**
+- Hech qanday ma'lumot yo'qolmaydi
 
 ---
 
-🎉 To'g'ri ulanish — barcha qurilmalarning muammosiz ishlashi!
+## **Maslahatlar**
+
+- **Sifatli router:** Yaxshi router — barqaror tarmoqning asosi
+- **Statik IP:** POS qurilma va printerlarga statik IP manzil bering — har safar qayta sozlash kerak bo'lmaydi
+- **Zaxira internet:** Asosiy internet uzilganda mobil internet (hotspot) ishlatish mumkin
+- **VPN tekshiring:** Har doim remote qurilmalarda VPN o'chirilganligini tekshiring
+- **Bir tarmoq:** Barcha qurilmalar **bitta router** ga ulangan bo'lishi shart
+- **Brauzer testi:** Muammo chiqqanda **har doim** avval brauzerda `IP:8080` ni tekshiring — bu 10 soniyada muammo qayerdaligini aniqlaydi

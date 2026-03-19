@@ -112,12 +112,36 @@ Chekda quyidagi ma'lumotlar ko'rsatiladi:
 
 ---
 
-## **Maslahatlar 💡**
+## **Fiskal chek**
 
-- **Tezkor savdo:** Eng ko'p sotiladigan mahsulotlarni oldingi kategoriyalarga qo'ying — tezroq topiladi.
-- **Numpad:** Narx yoki miqdorni tezkor kiritish uchun raqamli klaviaturadan foydalaning.
-- **Xodim almashtirish:** Smenada boshqa xodim ishlasa, PIN-kod orqali tizimga kiriladi.
+To'lov qabul qilinganda fiskal chek **avtomatik** shakllanadi (agar fiskal tizim sozlangan bo'lsa):
+
+- FM (fiskal modul) orqali chek fiskallashtiriladi
+- **QR kod** va **fiskal belgi** chekka qo'shiladi
+- Chek ma'lumotlari **OFD** ga avtomatik yuboriladi
+- QPOS yoki FDS tizimi orqali ishlaydi (sozlamalarda tanlanadi)
+
+:::tip
+Fiskal sozlamalar haqida batafsil: [Soliq integratsiyasi](/tax-modul/overview)
+:::
 
 ---
 
-🎉 Shu bilan siz Biznex POS orqali savdo jarayonini to'liq boshqarishingiz mumkin!
+## **Qaytarish (Refund)**
+
+Buyurtmani qaytarish kerak bo'lganda:
+
+1. Buyurtmalar ro'yxatidan kerakli buyurtmani toping
+2. **"Qaytarish"** tugmasini bosing
+3. Qaytarish sababi kiritiladi
+4. Fiskal **qaytarish cheki** avtomatik shakllanadi (asl chek ma'lumotlari bilan)
+5. Pul mijozga qaytariladi
+
+---
+
+## **Maslahatlar**
+
+- **Tezkor savdo:** Eng ko'p sotiladigan mahsulotlarni oldingi kategoriyalarga qo'ying — tezroq topiladi
+- **Numpad:** Narx yoki miqdorni tezkor kiritish uchun raqamli klaviaturadan foydalaning
+- **Xodim almashtirish:** Smenada boshqa xodim ishlasa, PIN-kod orqali tizimga kiriladi
+- **Onlayn to'lov:** QR-kod orqali to'lov qabul qilish uchun invoys yarating — mijoz ilovadan to'laydi

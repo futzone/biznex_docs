@@ -3,38 +3,37 @@ title: Fiskal modul (FM)
 description: Fiskal modul nima, uning vazifalari va kundalik ishlash tartibi
 ---
 
-# **Fiskal modul (FM) 📟🧾**
+# **Fiskal modul (FM)**
 
 Fiskal modul (FM) — bu savdo nuqtasiga o'rnatiladigan maxsus qurilma bo'lib, har bir chekni **rasmiy hujjatga** aylantiradi va soliq organlariga avtomatik hisobot beradi.
 
 ---
 
-## **Oddiy tilda FM nima? 🤔**
+## **Oddiy tilda FM nima?**
 
 FM — bu kompyuterga ulanadigan kichik **USB-kalit** (flesh-disk ko'rinishida). U:
 
 - Har bir chekni **raqamli imzo** bilan tasdiqlaydi — soxta chek chiqarib bo'lmaydi
 - Har bir chekka **unikal raqam (fiskal belgi)** beradi
-- Chek ma'lumotlarini **soliq serveriga (OFD)** yuboradi
+- Chek ma'lumotlarini **OFD ga** yuboradi
 - **QR kod** yaratadi — mijoz chek haqiqiyligini tekshira oladi
 
-> 💡 Qisqa qilib: FM — "soliq nazoratchi" bo'lib, har bir chekingiz rasmiy va qonuniy ekanligini kafolatlaydi.
+---
+
+## **FM, QPOS va FDS — nima farqi?**
+
+| Tushuncha | Tavsifi |
+|-----------|---------|
+| **FM (Fiskal Modul)** | Jismoniy qurilma (USB-kalit) — chekni kriptografik imzolaydi |
+| **QPOS** | FM bilan ishlovchi an'anaviy dasturiy ta'minot |
+| **FDS** | FM bilan ishlovchi yangi avlod dastur (REST API, port 3449) |
+| **OFD** | Ma'lumotlar yuboriladigan soliq serveri (operator) |
+
+Biznex POS sozlamalarida **QPOS** yoki **FDS** dan birini tanlash mumkin. Ikkalasi ham FM qurilma bilan ishlaydi.
 
 ---
 
-## **FM va QPOS — bir xil narsa 🔄**
-
-Ba'zan "QPOS", ba'zan "FM" deyiladi — lekin **mohiyatan bir xil qurilma** haqida gap ketyapti:
-
-- **FM (Fiskal Modul)** — qurilmaning o'zi (USB-kalit)
-- **QPOS** — FM bilan ishlovchi dasturiy ta'minot (FiscalDriveService)
-- **OFD** — ma'lumotlar yuboriladigan soliq serveri
-
-Birgalikda ular yagona fiskal tizimni tashkil qiladi.
-
----
-
-## **Nima uchun FM majburiy? ⚖️**
+## **Nima uchun FM majburiy?**
 
 O'zbekiston qonunchiligiga ko'ra:
 
@@ -45,14 +44,14 @@ O'zbekiston qonunchiligiga ko'ra:
 
 ---
 
-## **Kundalik ishlash tartibi 📋**
+## **Kundalik ishlash tartibi**
 
 ### Ish kunini boshlash (smena ochish)
 
 1. Kompyuter va Biznex POS ni yoqing
-2. FM (USB-kalit) ulangan va FiscalDriveService ishlayotganini tekshiring
+2. FM (USB-kalit) ulangan va fiskal xizmat (QPOS/FDS) ishlayotganini tekshiring
 3. Biznex avtomatik **smenani ochadi**
-4. Savdoni boshlashingiz mumkin ✅
+4. Savdoni boshlashingiz mumkin
 
 ### Ish kuni davomida
 
@@ -68,28 +67,60 @@ O'zbekiston qonunchiligiga ko'ra:
 3. Kunlik ma'lumotlar OFD ga yuboriladi
 4. Kompyuterni o'chirishingiz mumkin
 
-> ⚠️ **Smenani yopmasdan ketmang!** Bu soliq hisobotlari uchun juda muhim.
+:::caution
+**Smenani yopmasdan ketmang!** Bu soliq hisobotlari uchun juda muhim.
+:::
 
 ---
 
-## **FM o'rnatish — kim qiladi? 🔧**
+## **OFD sinxronizatsiya**
+
+OFD (Online Fiscal Data) — fiskal ma'lumotlarni soliq operatoriga yuborish tizimi.
+
+### Sinxronizatsiya jarayoni
+
+1. Har bir fiskal chek **avtomatik** OFD ga yuboriladi
+2. Z-hisobot yopilganda kunlik ma'lumotlar sinxronizatsiya qilinadi
+3. Biznex POS da oxirgi sinxronizatsiya vaqti ko'rsatiladi
+
+### 48 soat qoidasi
+
+:::caution
+**48 soat** davomida OFD ga ulanmaslik FM ning **bloklanishiga** olib keladi!
+
+- Internet aloqasini doimiy ta'minlang
+- Sinxronizatsiya holatini **Monitoring > Fiskal** sahifasida tekshiring
+- Agar internet uzoq vaqt yo'q bo'lsa — cheklar FM xotirasida saqlanadi va internet qaytganda avtomatik yuboriladi
+:::
+
+### FM holat tekshirish
+
+**Monitoring > Fiskal** sahifasida quyidagi ma'lumotlarni ko'rish mumkin:
+- FM seriya raqami
+- Xotiradagi cheklar soni
+- Oxirgi OFD sinxronizatsiya vaqti
+- FM qolgan xotira hajmi
+
+---
+
+## **FM o'rnatish — kim qiladi?**
 
 FM ni o'rnatish va sozlash **texnik mutaxassis** vazifasi:
 
-### O'rnatish jarayoni
-
 1. **FM qurilma** soliq inspeksiyasidan olinadi va ro'yxatdan o'tkaziladi
 2. FM **USB portga** ulanadi
-3. **FiscalDriveService** dasturi o'rnatiladi
+3. Fiskal xizmat dasturi (QPOS yoki FDS) o'rnatiladi
 4. Korxona STIR raqami va ma'lumotlari kiritiladi
 5. Test chek chop etilib tekshiriladi
-6. Tizim ishga tushadi ✅
+6. Tizim ishga tushadi
 
-> 💡 O'rnatishni **Biznex texnik xizmati** bajaradi. Kassir va menejer bu jarayonga aralashishi shart emas.
+:::tip
+O'rnatishni **Biznex texnik xizmati** bajaradi. Kassir va menejer bu jarayonga aralashishi shart emas.
+:::
 
 ---
 
-## **FM bilan bog'liq muhim qoidalar ⚠️**
+## **FM bilan bog'liq muhim qoidalar**
 
 ### 1. FM doimo ulangan bo'lishi kerak
 - USB-kalitni ish vaqtida **ajratmang**
@@ -98,7 +129,7 @@ FM ni o'rnatish va sozlash **texnik mutaxassis** vazifasi:
 ### 2. Internet doimiy bo'lishi kerak
 - FM chekni OFD ga internet orqali yuboradi
 - Internet yo'q bo'lsa — cheklar vaqtincha xotirada saqlanadi
-- **2 kundan ortiq** yuborilmasa — **FM bloklanadi!**
+- **48 soatdan ortiq** yuborilmasa — **FM bloklanadi!**
 
 ### 3. Kompyuter soati to'g'ri bo'lishi kerak
 - FM kompyuter vaqtiga bog'langan
@@ -115,22 +146,18 @@ FM ni o'rnatish va sozlash **texnik mutaxassis** vazifasi:
 
 ---
 
-## **FM bloklansa nima qilish kerak? 🔒**
-
-FM quyidagi hollarda **bloklanishi** mumkin:
+## **FM bloklansa nima qilish kerak?**
 
 | Sabab | Belgi | Yechim |
 |-------|-------|--------|
-| 2+ kun chek yuborilmagan | Yangi chek chiqmaydi | Internetni tiklang, texnik xizmatga murojaat qiling |
+| 48+ soat chek yuborilmagan | Yangi chek chiqmaydi | Internetni tiklang, texnik xizmatga murojaat qiling |
 | OFD tomonidan bloklangan | Xato xabari chiqadi | Soliq inspeksiyasiga murojaat qiling |
 | Kompyuter soati noto'g'ri | FM javob bermaydi | Soatni to'g'rilang, texnik xizmatga murojaat qiling |
 | FM eskirgan/buzilgan | Umuman ishlamaydi | Soliq inspeksiyasidan yangi FM oling |
 
-> 📞 FM bloklanganda birinchi navbatda **Biznex texnik xizmatiga** qo'ng'iroq qiling.
-
 ---
 
-## **Tez-tez so'raladigan savollar ❓**
+## **Tez-tez so'raladigan savollar**
 
 **FM ni boshqa kompyuterga ko'chirsam bo'ladimi?**
 > Yo'q, FM bitta kompyuterga bog'langan. Ko'chirish uchun texnik mutaxassis kerak.
@@ -139,21 +166,18 @@ FM quyidagi hollarda **bloklanishi** mumkin:
 > FM xotirasi cheklangan (odatda 480-800 ta chek). Shuning uchun cheklar muntazam OFD ga yuborilishi kerak.
 
 **Internet yo'q bo'lsa savdo qila olamanmi?**
-> Ha, cheklar FM xotirasida vaqtincha saqlanadi. Lekin 2 kundan oshmasligi kerak!
+> Ha, cheklar FM xotirasida vaqtincha saqlanadi. Lekin 48 soatdan oshmasligi kerak!
 
-**FM qancha muddat ishlaydi?**
-> FM ning xizmat muddati bor. Muddati tugaganda soliq inspeksiyasidan yangisini olish kerak.
-
----
-
-## **Maslahatlar 💡**
-
-- **Har kuni smena yoping** — eng muhim qoida.
-- **Internet barqarorligini ta'minlang** — FM ning muammosiz ishlashi uchun.
-- **USB ni ajratmang** — FM doim ulangan bo'lsin.
-- **UPS (zaryadka bloki) o'rnating** — elektr uzilishida ma'lumot yo'qolmaydi.
-- **Muammo bo'lsa — texnik xizmatga murojaat qiling** — o'zingiz tuzatishga urinmang.
+**QPOS va FDS dan qaysi birini tanlashim kerak?**
+> Yangi o'rnatishlar uchun **FDS** tavsiya etiladi. Eski tizimlarni **QPOS** da qoldirish mumkin.
 
 ---
 
-🎉 FM — sizning biznesingiz qonuniy va shaffof ishlayotganining kafolati!
+## **Maslahatlar**
+
+- **Har kuni smena yoping** — eng muhim qoida
+- **Internet barqarorligini ta'minlang** — FM ning muammosiz ishlashi uchun
+- **USB ni ajratmang** — FM doim ulangan bo'lsin
+- **UPS o'rnating** — elektr uzilishida ma'lumot yo'qolmaydi
+- **Monitoring > Fiskal** sahifasini muntazam tekshiring — OFD sinxronizatsiya holatini kuzating
+- **Muammo bo'lsa — texnik xizmatga murojaat qiling** — o'zingiz tuzatishga urinmang

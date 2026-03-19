@@ -55,3 +55,32 @@ Biznex Cloud dan foydalanish uchun:
 4. **Obuna tanlang** — kerakli tarifni faollashtiring
 
 > 📖 Batafsil: [Veb-portal](/cloud-modul/web-client/) sahifasida bosqichma-bosqich ko'rsatmalar berilgan.
+
+---
+
+## **Real-time sinxronizatsiya**
+
+Biznex Cloud ma'lumotlarni **real vaqtda** sinxronizatsiya qiladi:
+
+- **WebSocket** texnologiyasi orqali doimiy aloqa
+- Buyurtma, mahsulot va xodim o'zgarishlari darhol yangilanadi
+- Internet uzilganda ma'lumotlar lokal saqlanadi va qaytganda avtomatik sinxronizatsiya bo'ladi
+
+---
+
+## **Cloud migratsiya**
+
+Biznex POS dan Cloud ga ma'lumotlar migratsiyasi:
+- Barcha mahsulotlar, retseptlar va sozlamalar yuklanadi
+- Xodimlar va rollar sinxronizatsiya qilinadi
+- Buyurtmalar tarixi saqlanadi
+
+---
+
+## **Audit logging**
+
+Barcha muhim o'zgarishlar **audit logida** saqlanadi:
+- Kim, qachon, nima o'zgartirgan
+- Buyurtma yaratish, o'zgartirish, bekor qilish
+- Sozlama o'zgarishlari
+- Xodim kirish/chiqish vaqtlari

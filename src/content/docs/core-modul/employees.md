@@ -19,14 +19,20 @@ Masalan:
 - Admin tizimni to‘liq boshqaradi.  
 - Meneger esa savdo va hisobotlarni ko‘rishi mumkin.  
 
-## 2. Xodim qo'shish 🧑‍🤝‍🧑
-Lavozim yaratgandan so‘ng, yangi **xodim qo‘shing**.  
-- Xodimga ism va tegishli lavozimni belgilang.  
-- Har bir xodimga shaxsiy **PIN-kod** yarating.  
+## 2. Xodim qo’shish 🧑‍🤝‍🧑
+Lavozim yaratgandan so’ng, yangi **xodim qo’shing**.
+- Xodimga ism va tegishli lavozimni belgilang.
+- Har bir xodimga shaxsiy **PIN-kod** yarating.
 
-➡️ PIN-kodni xodimga ayting va u kassada tizimga kira oladi.  
+➡️ PIN-kodni xodimga ayting va u kassada tizimga kira oladi.
 
-✅ Shu bilan xodim be’malol buyurtmalarni qabul qilib, ishlashni boshlaydi.  
+✅ Shu bilan xodim be’malol buyurtmalarni qabul qilib, ishlashni boshlaydi.
+
+### PIN-kod sozlamalari
+- PIN-kod uzunligi **4 dan 6 gacha** raqam (Sozlamalarda o’zgartiriladi)
+- Har bir xodimning PIN-kodi **takrorlanmas** bo’lishi kerak
+- Xodim faqat o’ziga tegishli buyurtmalarni ko’ra oladi
+- Belgilangan vaqt davomida faolsizlik bo’lsa — avtomatik chiqish (auto-logout)  
 
 ## 3. Statistikalar va Hisobotlar 📊
 Boshqaruv paneli orqali xodimlarning faoliyatini kuzatishingiz mumkin:  
@@ -36,4 +42,16 @@ Boshqaruv paneli orqali xodimlarning faoliyatini kuzatishingiz mumkin:
   - 🍽️ Mahsulotlar kesimida sotuvlar  
   - 👤 Xodimlar kesimida natijalar  
 
-📌 Bu ma’lumotlar orqali siz xodimlar samaradorligini nazorat qilishingiz va biznesni yanada samarali boshqarishingiz mumkin.  
+📌 Bu ma’lumotlar orqali siz xodimlar samaradorligini nazorat qilishingiz va biznesni yanada samarali boshqarishingiz mumkin.
+
+## 4. Xodim maoshi 💰
+Biznex POS da xodimlar bo’yicha moliyaviy kuzatish:
+- Har bir xodimning buyurtmalar soni va jami savdo summasi
+- Daromad va xarajat tahlili
+- Sana oralig’i bo’yicha filtrlash (kun, hafta, oy)
+
+## 5. Monitoring 📊
+**Monitoring > Xodimlar** sahifasida real vaqtda:
+- Barcha xodimlarning savdo ko’rsatkichlari
+- O’rtacha buyurtma qiymati
+- Xodimlar samaradorligi taqqoslash grafigi  

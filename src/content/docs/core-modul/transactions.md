@@ -32,15 +32,20 @@ Tranzaksiya qo‘shish uchun quyidagilarni kiritasiz:
 - 🔄 **Kassadan olinmoqda / Kassaga qo‘yilmoqda**  
   Pulning yo‘nalishi: kirim yoki chiqim.
 
-- 💳 **To‘lov turi**  
-  - Naqd 💵  
-  - Click 💻  
-  - Payme 📱  
-  - Uzum 🟣  
-  - Karta 💳  
+- 💳 **To’lov turi**
+  - Naqd 💵
+  - Karta 💳
+  - Click 💻
+  - Payme 📱
+  - Uzum 🟣
+  - Oson 🟡
+  - Wolt 🍔
+  - Yandex 🚕
+  - Alif 💰 (nasiya)
+  - Qarz (nasiya) 📝
 
-- 👤 **Kimga**  
-  Agar xodim bilan bog‘liq bo‘lsa — xodimni tanlaysiz.
+- 👤 **Kimga**
+  Agar xodim bilan bog’liq bo’lsa — xodimni tanlaysiz.
 
 ---
 
@@ -68,4 +73,23 @@ Tranzaksiyalar asosida quyidagi tahlillar tayyorlanadi:
 
 ---
 
-🎉 Shu bilan siz **Tranzaksiyalar** bo‘limi orqali biznesingizning pul oqimini to‘liq nazorat qilishingiz mumkin!
+## **Onlayn to’lov invoyslari**
+
+Biznex POS da onlayn to’lov uchun **invoys** yaratish mumkin:
+- Tizim to’lov uchun **QR-kod** generatsiya qiladi
+- Mijoz QR-kodni skanerlab to’lovni amalga oshiradi
+- To’lov holati real vaqtda kuzatiladi (SSE orqali)
+- To’lov tasdiqlanganda buyurtma avtomatik yopiladi
+
+**Invoys holatlari:**
+| Holat | Tavsifi |
+|-------|---------|
+| Kutilmoqda | Invoys yaratildi, to’lov kutilmoqda |
+| Jarayonda | Mijoz to’lov boshladi |
+| Muvaffaqiyatli | To’lov amalga oshdi |
+| Xato | To’lov amalga oshmadi |
+| Qaytarilgan | To’lov qaytarildi (refund) |
+
+---
+
+🎉 Shu bilan siz **Tranzaksiyalar** bo’limi orqali biznesingizning pul oqimini to’liq nazorat qilishingiz mumkin!

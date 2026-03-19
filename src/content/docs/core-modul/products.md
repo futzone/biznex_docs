@@ -21,8 +21,9 @@ Biznex POS dagi **taomlar** — bu menyuga qo’shiladigan ovqatlar va ichimlikl
 | **Kategoriya** | Qaysi guruhga tegishli (Taomlar, Ichimliklar...) | Ha |
 | **Miqdor** | Boshlang’ich qoldiq | Ha |
 | **O’lchov birligi** | dona, kg, litr, portsiya | Ha |
-| **Rasm** | Taom rasmi (ixtiyoriy) | Yo’q |
+| **Rasm** | Taom rasmi — bir nechta rasm qo’shish mumkin | Yo’q |
 | **Tavsif** | Qo’shimcha izoh | Yo’q |
+| **Cheksiz mavjudlik** | Yoqilsa, miqdor cheklanmaydi (∞) | Yo’q |
 
 ### 2. Narx va foiz (tan narx)
 
@@ -102,6 +103,36 @@ MXIK kod tanlangandan keyin shu mahsulot uchun **paket kod** ham tanlanishi kera
 | **10** | Porsiya | Osh, sho’rva, salat |
 
 > 📖 Batafsil: [Paket kodlar](/tax-modul/package-codes/) sahifasi
+
+---
+
+## **Mahsulot variantlari**
+
+Biznex POS da mahsulotlarga **variantlar** qo'shish mumkin — bu bir xil mahsulotning turli ko'rinishlarini boshqarish uchun:
+
+| Variant turi | Tavsifi | Misol |
+|-------------|---------|-------|
+| **Rang** | Mahsulotning rangi | Qizil, Yashil, Ko'k |
+| **O'lcham** | Mahsulotning o'lchami | S, M, L, XL |
+| **O'lchov** | O'lchov birligi | 200g, 300g, 500g |
+
+Variantlar **Mahsulot tahrirlash** sahifasida qo'shiladi. Har bir variant uchun alohida nom beriladi.
+
+---
+
+## **Markirovka talablari**
+
+Raqamli markirovka qilinadigan tovarlar uchun:
+- Kassa chekida **markirovka kodi** aks ettirilishi shart
+- Qurilma markirovka kodi ko'rsatilmasa chek shakllantirilishini bloklaydi
+- Bitta chekda ikkita bir xil markirovka kodi bo'lishi mumkin emas
+- Skaner tovar yaroqlilik muddati o'tganini aniqlasa — sotuvni bloklaydi
+
+---
+
+## **Preset summalar (Tezkor buyurtma)**
+
+Ko'p sotiladigan mahsulotlar uchun **preset summalar** belgilash mumkin — bu tezkor buyurtma qabul qilish uchun qulay.
 
 ---
 

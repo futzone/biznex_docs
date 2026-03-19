@@ -57,21 +57,17 @@ export default defineConfig({
 						{ label: '〽️ Savdo qilish', slug: 'pos-modul/sales' },
 						{ label: '🛎 Buyurtmalar', slug: 'pos-modul/orders' },
 						{ label: '👥 Mijozlar', slug: 'pos-modul/customers' },
-
 					],
 				},
 
 				{
 					label: 'Fastfood tizimi',
 					items: [
-					 
 						{ label: '🌭 Savdo qilish', slug: 'fastfood-modul/sale' },
 						{ label: '🍔 Buyurtmalar', slug: 'fastfood-modul/orders' },
 						{ label: '1️⃣ Navbatlar', slug: 'fastfood-modul/queue' },
-
 					],
 				},
-
 
 				{
 					label: 'To\'lov va Soliq',
@@ -79,6 +75,7 @@ export default defineConfig({
 						{ label: '🧾 Soliq integratsiyasi', slug: 'tax-modul/overview' },
 						{ label: '🖨️ QPOS terminali', slug: 'tax-modul/qpos' },
 						{ label: '📟 Fiskal modul (FM)', slug: 'tax-modul/fiscal-module' },
+						{ label: '🔌 FDS xizmati', slug: 'tax-modul/fds' },
 						{ label: '🏷️ MXIK kodlar', slug: 'tax-modul/mxik' },
 						{ label: '📦 Paket kodlar', slug: 'tax-modul/package-codes' },
 						{ label: '🧾 Fiskal chek', slug: 'tax-modul/fiscal-receipt' },
@@ -100,7 +97,8 @@ export default defineConfig({
 						{ label: '📉 Asosiy hisobotlar', slug: 'inventory-modul/monitoring' },
 						{ label: '🍱 Taomlar', slug: 'inventory-modul/stock-management' },
 						{ label: '🏢 Omborxona boshqaruvi', slug: 'inventory-modul/warehouse-management' },
-
+						{ label: '🏭 Oshxona ishlab chiqarish', slug: 'inventory-modul/kitchen' },
+						{ label: '📈 Tahlillar', slug: 'inventory-modul/analytics' },
 					],
 				},
 				{
@@ -109,7 +107,6 @@ export default defineConfig({
 						{ label: '🖥 POS qurilma', slug: 'devices-modul/desktop' },
 						{ label: '📱 Mobil ilova', slug: 'devices-modul/mobile' },
 						{ label: '⛓️ Ulanish', slug: 'devices-modul/connection' },
-
 					],
 				},
 				{
@@ -117,7 +114,20 @@ export default defineConfig({
 					items: [
 						{ label: '🔑 Boshqaruv', slug: 'config-modul/roles' },
 						{ label: '📲 Integratsiya', slug: 'config-modul/integrations' },
-						{ label: '⚙️ Ilova sozlamalari', slug: 'config-modul/settings' }
+						{ label: '⚙️ Ilova sozlamalari', slug: 'config-modul/settings' },
+					],
+				},
+
+				{
+					label: 'Qonunchilik',
+					items: [
+						{ label: '📜 Qonunchilik asoslari', slug: 'qonunchilik-modul/overview' },
+						{ label: '🖥 Qurilmalar va tizimlar', slug: 'qonunchilik-modul/qurilmalar' },
+						{ label: '🧾 Chek va hisobot', slug: 'qonunchilik-modul/chek-hisobot' },
+						{ label: '⚙️ Texnik talablar', slug: 'qonunchilik-modul/texnik-talablar' },
+						{ label: '💰 Moliyaviy talablar', slug: 'qonunchilik-modul/moliyaviy-talablar' },
+						{ label: '📋 Amaliy qoidalar', slug: 'qonunchilik-modul/amaliy-qoidalar' },
+						{ label: '📞 Call Center qo\'llanma', slug: 'qonunchilik-modul/call-center' },
 					],
 				},
 
@@ -133,15 +143,11 @@ export default defineConfig({
 					label: 'Boshqalar',
 					items: [
 						{ label: '🛠 Versiyalar', slug: 'support-modul/changelog' },
+						{ label: '📝 Docs o\'zgarishlar', slug: 'support-modul/docs-changelog' },
 						{ label: '🌐 Ijtimoiy tarmoqlar', slug: 'support-modul/socials' },
 						{ label: '📞 Qo\'llab-quvvatlash', slug: 'support-modul/support' },
-
-
 					],
 				},
-
-
-
 			],
 		}),
 	],

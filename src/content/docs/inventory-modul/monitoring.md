@@ -1,34 +1,81 @@
 ---
 title: Asosiy hisobotlar
-description: Biznex POS tizimidagi kunlik monitoring va asosiy hisobotlar
+description: Biznex POS tizimidagi monitoring va asosiy hisobotlar — 11 ta tahlil sahifasi
 ---
 
-# **Asosiy hisobotlar 📉📊**
+# **Asosiy hisobotlar (Monitoring)**
 
-Monitoring bo'limi — biznesingizning **kunlik faoliyatini** real vaqtda kuzatish uchun mo'ljallangan. Bu yerda savdo hajmi, tushum, xodimlar faoliyati va boshqa muhim ko'rsatkichlar jamlangan.
-
----
-
-## **Monitoring paneli 🖥️**
-
-Monitoring sahifasida quyidagi asosiy ko'rsatkichlar ko'rsatiladi:
-
-### Kunlik statistika
-- 📊 **Kunlik buyurtmalar soni** — bugun nechta buyurtma qabul qilindi
-- 💰 **Kunlik tushum** — bugungi jami savdo summasi
-- 📦 **Sotilgan mahsulotlar** — bugun nechta mahsulot sotildi
-- 💳 **To'lov turlari** — naqd va naqdsiz savdolar nisbati
-
-### Grafik va diagrammalar
-- 📈 **Savdo grafigi** — soatlik, kunlik, haftalik dinamika
-- 🥧 **Mahsulot ulushi** — qaysi mahsulot ko'proq sotilayapti
-- 👥 **Xodimlar ko'rsatkichi** — har bir xodimning savdosi
+Monitoring bo'limi — biznesingizning faoliyatini **real vaqtda** kuzatish uchun mo'ljallangan. **11 ta alohida tahlil sahifasi** orqali savdo, moliya, xodimlar va boshqa ko'rsatkichlarni chuqur tahlil qilish mumkin.
 
 ---
 
-## **Hisobot davrlari 📅**
+## **Monitoring sahifalari**
 
-Hisobotlarni quyidagi davrlar bo'yicha ko'rishingiz mumkin:
+### 1. Umumiy monitoring
+Biznesingizning asosiy ko'rsatkichlari bir sahifada:
+- Kunlik buyurtmalar soni
+- Kunlik tushum
+- Sotilgan mahsulotlar soni
+- To'lov turlari nisbati (naqd / karta / onlayn)
+
+### 2. Buyurtmalar tahlili
+- Buyurtmalar soni va summasi (davr bo'yicha)
+- Soatlik buyurtmalar grafigi
+- Buyurtma holatlari: ochiq, yakunlangan, bekor qilingan
+- Eng ko'p buyurtma qabul qilingan vaqt oraliq
+
+### 3. To'lovlar tahlili
+- To'lov turlari bo'yicha taqsimot: naqd, karta, Click, Payme, Uzum, Oson, Wolt, Yandex, Alif
+- Har bir to'lov turining jami summasi
+- Grafik ko'rinishda taqqoslash
+
+### 4. Mahsulotlar tahlili
+- Eng ko'p sotilgan mahsulotlar reytingi
+- Har bir mahsulotdan tushgan daromad
+- Kategoriya bo'yicha taqsimot grafigi
+- Kam sotiladigan mahsulotlar
+
+### 5. Masalliqlar (Ingredientlar)
+- Masalliq sarflanishi davr bo'yicha
+- Eng ko'p sarflangan masalliqlar
+- Ombor qoldiqlari holati
+- Masalliq qiymati tahlili
+
+### 6. Xaridlar
+- Xarid operatsiyalari tarixi
+- Yetkazuvchilar bo'yicha xarajatlar
+- Xarid hajmi dinamikasi
+
+### 7. Kategoriyalar
+- Kategoriya bo'yicha savdo hajmi
+- Eng daromadli kategoriyalar
+- Kategoriyalar dinamikasi
+
+### 8. Bekor qilishlar
+- Bekor qilingan buyurtmalar soni va summasi
+- Bekor qilish sabablari
+- Qaysi xodim tomonidan bekor qilingan
+
+### 9. Tranzaksiyalar
+- Barcha moliyaviy operatsiyalar: tushum, chiqim
+- Tranzaksiya turlari bo'yicha filtrlash
+- Kunlik/haftalik/oylik moliyaviy oqim
+
+### 10. Xodimlar
+- Har bir xodimning buyurtmalar soni
+- Xodim bo'yicha savdo summasi
+- O'rtacha buyurtma qiymati
+- Xodimlar samaradorligi taqqoslash
+
+### 11. Fiskal monitoring
+- Fiskal cheklar holati
+- Z-hisobotlar tarixi
+- OFD sinxronizatsiya holati va oxirgi sinxronizatsiya vaqti
+- FM xotira holati
+
+---
+
+## **Hisobot davrlari**
 
 | Davr | Tavsif |
 |------|--------|
@@ -40,36 +87,18 @@ Hisobotlarni quyidagi davrlar bo'yicha ko'rishingiz mumkin:
 
 ---
 
-## **Xodim monitoringi 👩‍🍳**
+## **Texnik imkoniyatlar**
 
-Har bir xodim bo'yicha alohida ko'rsatkichlar:
-
-- 🛎 **Buyurtmalar soni** — nechta buyurtma qabul qilgan
-- 💰 **Savdo summasi** — jami qancha savdo qilgan
-- 📦 **Sotilgan mahsulotlar** — qancha mahsulot sotgan
-- ⏱️ **O'rtacha vaqt** — buyurtma ochishdan yopishgacha
-
-Bu ma'lumotlar xodimlar samaradorligini baholash va rag'batlantirish uchun juda foydali.
+- **Isolate hisoblash** — katta hajmdagi ma'lumotlar alohida jarayonda hisoblanadi, ilovaning tezligi pasaymaydi
+- **Chop etish** — har bir hisobotni printer orqali chop etish mumkin
+- **Real-time** — ma'lumotlar doimiy yangilanib turadi
 
 ---
 
-## **Moliyaviy hisobot 💰**
+## **Maslahatlar**
 
-Moliyaviy ko'rsatkichlar:
-
-- 💵 **Jami tushum** — barcha savdolardan tushgan pul
-- 💸 **Jami chiqim** — xaridlar, tranzaksiyalar, xarajatlar
-- 📊 **Sof foyda** — tushum minus chiqim
-- 💳 **To'lov turlari** — naqd, karta, Click, Payme, Uzum bo'yicha alohida
-
----
-
-## **Maslahatlar 💡**
-
-- **Har kuni monitoring qiling:** Kunlik ko'rsatkichlarni kuzatib boring — kutilmagan o'zgarishlarni tez aniqlaysiz.
-- **Haftalik taqqoslash:** O'tgan hafta bilan solishtiring — biznes o'sishini kuzating.
-- **Xodim baholash:** Monitoring ma'lumotlari asosida xodimlarni rag'batlantiring.
-
----
-
-🎉 Monitoring orqali biznesingiz haqida to'liq tasavvurga ega bo'lasiz!
+- **Har kuni monitoring qiling:** Kunlik ko'rsatkichlarni kuzatib boring — kutilmagan o'zgarishlarni tez aniqlaysiz
+- **Haftalik taqqoslash:** O'tgan hafta bilan solishtiring — biznes o'sishini kuzating
+- **Bekor qilishlarni kuzating:** Ko'p bekor qilish — jarayon muammosini ko'rsatadi
+- **Fiskal monitoring:** OFD sinxronizatsiya holatini muntazam tekshiring — 48 soat limitdan xabardor bo'ling
+- **Xodim baholash:** Monitoring ma'lumotlari asosida xodimlarni rag'batlantiring
