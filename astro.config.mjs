@@ -15,6 +15,65 @@ export default defineConfig({
 			locales: {
 				root: { label: 'O\'zbekcha', lang: 'uz' },
 			},
+			head: [
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'keywords',
+						content: 'Biznex, Biznex uz, Biznex POS, POS tizimi, POS sistema, kassa dasturi, restoran dasturi, kafe dasturi, savdo dasturi, Biznex qollanma, Biznex docs, Biznex yordam, onlayn kassa, fiskal kassa, soliq tizimi, O\'zbekiston POS, uzbekistan POS, ombor boshqaruvi, retsept dasturi, restoran POS, restoran avtomatizatsiyasi, umumiy ovqatlanish korxonalarini boshqarish, kafe va restoranlar uchun dastur, ombor hisob-kitobi dasturi, ofitsiantlar uchun mobil ilova, restoran CRM, sotuv terminali, oshxona uchun programma, kafe uchun kassa, restoran programmasi, kassir uchun programma, sklad programmasi, QR menyu, restaurant POS system, cloud POS, kitchen display system, fast food POS, restoran uchun eng yaxshi dastur, taom tannarxini hisoblash, Toshkentda restoran avtomatizatsiyasi',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'author',
+						content: 'Biznex',
+					},
+				},
+				{
+					tag: 'meta',
+					attrs: {
+						property: 'og:image',
+						content: 'https://docs.biznex.uz/favicon.svg',
+					},
+				},
+				{
+					tag: 'script',
+					attrs: { type: 'application/ld+json' },
+					content: JSON.stringify({
+						'@context': 'https://schema.org',
+						'@type': 'WebSite',
+						name: 'Biznex',
+						alternateName: ['Biznex POS', 'Biznex Docs', 'Biznex uz'],
+						url: 'https://docs.biznex.uz',
+						description: 'Biznex POS — O\'zbekistondagi restoranlar, kafelar va do\'konlar uchun zamonaviy savdo va boshqaruv tizimi. Qo\'llanma va yordam markazi.',
+						inLanguage: 'uz',
+						publisher: {
+							'@type': 'Organization',
+							name: 'Biznex',
+							url: 'https://biznex.uz',
+							logo: 'https://docs.biznex.uz/favicon.svg',
+						},
+					}),
+				},
+				{
+					tag: 'script',
+					attrs: { type: 'application/ld+json' },
+					content: JSON.stringify({
+						'@context': 'https://schema.org',
+						'@type': 'SoftwareApplication',
+						name: 'Biznex POS',
+						applicationCategory: 'BusinessApplication',
+						operatingSystem: 'Windows, Android',
+						description: 'Restoran, kafe va do\'konlar uchun POS (savdo nuqtasi) tizimi. Kassa, ombor, hisobotlar, soliq integratsiyasi.',
+						url: 'https://biznex.uz',
+						offers: {
+							'@type': 'Offer',
+							availability: 'https://schema.org/InStock',
+						},
+					}),
+				},
+			],
 			customCss: [
 				'./src/styles/custom.css',
 			],
