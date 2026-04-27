@@ -13,22 +13,25 @@ Bu yerda Biznex POS va Fastfood dasturlarining barcha versiyalari va har bir yan
 
 ---
 
-## **v2.8.x (Joriy versiya)**
+## **v2.8.174 (Joriy versiya)**
 
 📅 **2026-yil aprel**
 
+- 📊 **Joylar monitoringi** — stol va joy bo'yicha savdo tahlili (13-chi monitoring sahifasi)
+- 🔖 **Smena (shift) tizimi** — Rahmat MK Multikassa fiskal qurilma uchun to'liq smena boshqaruvi: ochish, yopish, smena hisoboti
+- 🏷️ **Chegirma tizimi** — buyurtmaga foiz yoki qat'iy miqdorda chegirma berish; chegirma hisobot sahifasi
+- ⌨️ **Virtual klaviatura** — Windows uchun ekrandagi O'zbek (lotin/kirill) klaviatura, barcha matn maydonlarida ishlaydi
+- 🤖 **Telegram bot hisobotlar** — buyurtma, bekor qilish, kam zaxira, katta summa, xodim kirishi haqida real-time bildirishnomalar
+- 🏷️ **MXIK avtomatlashtirish** — mahsulot nomi bo'yicha MXIK kodni avtomatik qidirish va to'ldirish
+- 📟 **Rahmat MK fiskal** — Multikassa REST API integratsiyasi (port 12346); sotuv, qaytarish, X-hisobot, smena
 - 🖥 **Terminal monitoring** — to'lov terminallari holati, tranzaksiyalar va ulanish holati alohida monitoring sahifasida
-- 💰 **Maosh hisoblash** — xodim monitoring sahifasida maosh va komissiya hisoblash dialogi qo'shildi
+- 💰 **Maosh hisoblash** — xodim monitoring sahifasida maosh va komissiya hisoblash dialogi
 - 🔒 **Admin qulflanish vaqti** — faolsizlikdan keyin qulflanish muddati sozlanadi (30 sek — 24 soat)
 - 🌐 **Tarmoq interfeysi va QR** — mahalliy IP manzil ko'rish va QR-kod generatsiya qilish
 - 🖧 **COM port terminal sozlamalari** — to'lov terminalini COM port orqali ulash, port avtoaniqlanish va sinov
 - 🧾 **OFD sinxronizatsiya** to'liq amalga oshirildi — fiskal cheklar va Z-hisobotlar operatorga avtomatik yuboriladi
-- 🐛 Fiskal chek xatolari tuzatildi
-- 🔍 Buyurtma filtrlash imkoniyati qo'shildi
-- 👨‍🍳 Ofitsiant xatolari tuzatildi
-- ☁️ Cloud sinxronizatsiya xatolari tuzatildi
-- 📦 Omborxona ishlash tezligi yaxshilandi
-- ⚙️ Sozlamalar sahifasi yangilandi
+- 🐛 Fiskal chek, chegirma, ofitsiant va cloud sinxronizatsiya xatolari tuzatildi
+- ⚡ Umumiy ishlash tezligi va barqarorligi yaxshilandi
 
 ---
 

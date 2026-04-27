@@ -36,6 +36,8 @@ Biznex POS hisobotlar tizimi biznesingizning moliyaviy va operatsion holatini **
 | **Tranzaksiyalar** | Moliyaviy operatsiyalar tarixi |
 | **Xaridlar** | Xarid operatsiyalari |
 | **Fiskal** | Fiskal cheklar va Z-hisobotlar holati, OFD sinxronizatsiya |
+| **Terminal** | To'lov terminallari holati va tranzaksiyalari |
+| **Joylar** | Stol / joy bo'yicha savdo tahlili |
 
 ### Tahlil vositalari
 

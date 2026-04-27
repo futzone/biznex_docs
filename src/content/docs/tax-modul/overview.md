@@ -20,15 +20,16 @@ O'zbekistonda savdo va xizmat ko'rsatish sohasida faoliyat yurituvchi barcha tad
 
 ## **Fiskal tizimlar**
 
-Biznex POS da **ikkita fiskal tizim** qo'llab-quvvatlanadi. Sozlamalarda keraklisini tanlash mumkin:
+Biznex POS da **uchta fiskal tizim** qo'llab-quvvatlanadi. Sozlamalarda keraklisini tanlash mumkin:
 
-| Tizim | Tavsif | Holat |
-|-------|--------|-------|
-| **QPOS** | An'anaviy fiskal tizim — dasturiy kutubxona orqali ishlaydi | Faol |
-| **FDS** | Yangi avlod fiskal xizmat — lokal REST API (port 3449) orqali ishlaydi | Faol |
+| Tizim | Tavsif | Port | Holat |
+|-------|--------|------|-------|
+| **QPOS** | An'anaviy fiskal tizim — dasturiy kutubxona orqali ishlaydi | — | Faol |
+| **FDS** | Yangi avlod fiskal xizmat — lokal REST API orqali ishlaydi | 3449 | Faol |
+| **Rahmat MK** | Multikassa fiskal qurilma — lokal REST API orqali ishlaydi | 12346 | Faol |
 
 :::note
-Yangi o'rnatishlar uchun **FDS** tavsiya etiladi. Mavjud QPOS tizimlar ham ishlashda davom etadi. Sozlamalarda **To'lov va Soliq > Fiskal sozlamalar** bo'limida tanlash mumkin.
+Yangi o'rnatishlar uchun **FDS** yoki **Rahmat MK** tavsiya etiladi. Mavjud QPOS tizimlar ham ishlashda davom etadi. Sozlamalarda **To'lov va Soliq > Fiskal sozlamalar** bo'limida tanlash mumkin.
 :::
 
 ---
@@ -38,10 +39,11 @@ Yangi o'rnatishlar uchun **FDS** tavsiya etiladi. Mavjud QPOS tizimlar ham ishla
 | Komponent | Tavsif | Holat |
 |-----------|--------|-------|
 | **QPOS terminal** | An'anaviy fiskal tizim | Faol |
-| **FDS xizmati** | Yangi avlod fiskal REST API xizmati | Faol |
+| **FDS xizmati** | Yangi avlod fiskal REST API xizmati (port 3449) | Faol |
+| **Rahmat MK (Multikassa)** | Multikassa fiskal qurilma REST API (port 12346) | Faol |
 | **Fiskal modul (FM)** | Chekni fiskallashtiruvchi USB qurilma | Faol |
 | **OFD sinxronizatsiya** | Fiskal ma'lumotlarni operatorga yuborish | Faol |
-| **MXIK kodlar** | Mahsulotlarning milliy klassifikatori | Faol |
+| **MXIK kodlar** | Mahsulotlarning milliy klassifikatori (avtomatik qidiruv) | Faol |
 | **Paket kodlar** | Mahsulot qadoqlash kodlari | Faol |
 
 ---

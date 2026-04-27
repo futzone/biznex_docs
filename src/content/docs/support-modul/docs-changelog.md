@@ -23,9 +23,11 @@ Bu yerda **docs.biznex.uz** qo'llanmasining versiyalari va har bir yangilanishda
 - 🍔 **Fastfood changelog** — versiyalar sahifasiga Fastfood ilovasi tarixi qo'shildi (v2.6.57 va oldingi)
 
 ### Yangilangan sahifalar
-- 📊 **Asosiy hisobotlar** — 11 dan 12 monitoring sahifasiga yangilandi (terminal monitoring)
-- ⚙️ **Sozlamalar** — COM port, admin qulflanish, tarmoq QR, 2 printer bo'limlari kengaytirildi
-- 🛠 **Versiyalar** — POS v2.8.x yangi xususiyatlari va Fastfood bo'limi qo'shildi
+- 📊 **Asosiy hisobotlar** — 11 → 13 monitoring sahifasi (terminal + joylar monitoringi)
+- 📊 **Hisobotlar umumiy** — terminal va joylar monitoringi jadvallarga qo'shildi
+- ⚙️ **Sozlamalar** — COM port, admin qulflanish, tarmoq QR, 2 printer, virtual klaviatura, Telegram bot
+- 🧾 **Soliq integratsiyasi** — Rahmat MK (Multikassa) fiskal tizim qo'shildi (3 ta tizim)
+- 🛠 **Versiyalar** — POS v2.8.174 barcha yangilanishlar + Fastfood bo'limi
 
 ---
 

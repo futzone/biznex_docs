@@ -235,6 +235,49 @@ Biznex POS ni yangilash:
 
 ---
 
+## **Virtual klaviatura sozlamalari ⌨️**
+
+Windows qurilmalarda ekrandagi virtual klaviatura:
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Virtual klaviatura** | Ekrandagi klaviaturani yoqish / o'chirish |
+| **Til** | O'zbek lotin yoki kirill harflari avtomatik aniqlanadi |
+
+:::tip
+Virtual klaviatura barcha matn maydonlarida avtomatik faollashadi — sichqonsiz ishlash imkonini beradi.
+:::
+
+---
+
+## **Telegram bot sozlamalari 🤖**
+
+Biznex POS Telegram bot orqali real-time bildirishnomalar yuboradi.
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Bot token** | @BotFather dan olingan bot tokeni |
+| **Foydalanuvchi ID** | Bildirishnoma yuboriladigan Telegram ID lar (vergul bilan) |
+| **Test** | Bot token to'g'riligini tekshirish tugmasi |
+| **Bot holati** | Hozir ishlamoqda / to'xtatilgan |
+
+**Bildirishnoma turlari (har biri alohida yoqiladi/o'chiriladi):**
+
+| Hodisa | Tavsifi |
+|--------|---------|
+| ✅ Buyurtma yopildi | Buyurtma summasi, to'lov turi |
+| ❌ Buyurtma bekor qilindi | Bekor qilish sababi |
+| 🗑 Taom o'chirildi | Qaysi taom, kim tomonidan |
+| ⚠️ Kam zaxira | Mahsulot minimal chegara ostiga tushganda |
+| 💰 Katta summa | Belgilangan limitdan yuqori buyurtma |
+| 👤 Xodim kirdi | Tizimga kim kirganini kuzatish |
+
+:::note
+Bot sozlamalar uchun **Sozlamalar → Telegram Bot** bo'limiga kiring.
+:::
+
+---
+
 ## **Maslahatlar**
 
 - **Logo qo'shing:** Chekdagi logo — biznesingiz brendini oshiradi
