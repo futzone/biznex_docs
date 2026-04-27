@@ -5,14 +5,23 @@ description: Biznex POS dasturining versiyalar tarixi va yangilanishlar
 
 # **Versiyalar tarixi**
 
-Bu yerda Biznex POS dasturining barcha versiyalari va har bir yangilanishda qo'shilgan imkoniyatlar keltirilgan.
+Bu yerda Biznex POS va Fastfood dasturlarining barcha versiyalari va har bir yangilanishda qo'shilgan imkoniyatlar keltirilgan.
 
 ---
 
-## **v2.8.10 (Joriy versiya)**
+## 🖥️ Biznex POS
 
-📅 **2026-yil mart**
+---
 
+## **v2.8.x (Joriy versiya)**
+
+📅 **2026-yil aprel**
+
+- 🖥 **Terminal monitoring** — to'lov terminallari holati, tranzaksiyalar va ulanish holati alohida monitoring sahifasida
+- 💰 **Maosh hisoblash** — xodim monitoring sahifasida maosh va komissiya hisoblash dialogi qo'shildi
+- 🔒 **Admin qulflanish vaqti** — faolsizlikdan keyin qulflanish muddati sozlanadi (30 sek — 24 soat)
+- 🌐 **Tarmoq interfeysi va QR** — mahalliy IP manzil ko'rish va QR-kod generatsiya qilish
+- 🖧 **COM port terminal sozlamalari** — to'lov terminalini COM port orqali ulash, port avtoaniqlanish va sinov
 - 🧾 **OFD sinxronizatsiya** to'liq amalga oshirildi — fiskal cheklar va Z-hisobotlar operatorga avtomatik yuboriladi
 - 🐛 Fiskal chek xatolari tuzatildi
 - 🔍 Buyurtma filtrlash imkoniyati qo'shildi
@@ -20,15 +29,6 @@ Bu yerda Biznex POS dasturining barcha versiyalari va har bir yangilanishda qo's
 - ☁️ Cloud sinxronizatsiya xatolari tuzatildi
 - 📦 Omborxona ishlash tezligi yaxshilandi
 - ⚙️ Sozlamalar sahifasi yangilandi
-
----
-
-## **v2.8.x seriyasi**
-
-- 🧾 **OFD integratsiya** — fiskal ma'lumotlarni operatorga sinxronizatsiya
-- 🔍 **Buyurtma filtrlari** — sana, xodim, to'lov turi bo'yicha filtrlash
-- 🐛 Fiskal va omborxona xatolari tuzatildi
-- ⚡ Umumiy ishlash tezligi optimizatsiya qilindi
 
 ---
 
@@ -98,4 +98,43 @@ Bu yerda Biznex POS dasturining barcha versiyalari va har bir yangilanishda qo's
 
 ---
 
-Biznex POS doimo yangilanib, takomillashib bormoqda!
+## 🍔 Biznex Fastfood
+
+---
+
+## **v2.6.57 (Joriy versiya)**
+
+📅 **2026-yil aprel**
+
+- 🏷️ **Buyurtma badge chop etish** — har bir buyurtmaga alohida badge (yorliq) chiqarish imkoniyati
+- 🤖 **Telegram bot hisobotlar** — Telegram orqali kunlik/haftalik savdo hisobotlari va operatsion ma'lumotlar
+- 🧾 **QPOS xatolari tuzatildi** — fiskal chek chiqarish va tranzaksiya xatolari bartaraf etildi
+- ☁️ **Cloud yaxshilashlar** — sinxronizatsiya barqarorligi va tezligi oshirildi
+- 🔐 **Admin navigatsiya** — admin panelida navigatsiya xatolari tuzatildi
+- 📟 **Fiscal Drive** integratsiyasi — yangi avlod fiskal tizim qo'shildi
+
+---
+
+## **v2.6.x seriyasi**
+
+- 🧾 **QPOS fiskal tizim** — fiskal chek va Z-hisobotlar integratsiyasi
+- 📟 **Fiscal Drive (FDS)** — lokal REST API orqali fiskal xizmat
+- 💳 **Rahmat to'lov tizimi** — Rahmat loyallik kartasi integratsiyasi
+- 🏷️ **MXIK kodlar** — mahsulotlarga milliy klassifikator kodlari
+- 📦 **Paket kodlar** — qadoqlash birligi kodlari
+- 💰 **Ko'p to'lov turi** — naqd, karta, onlayn to'lovlar
+- 🛒 **Xaridor kodi** — TIN/PINFL asosida xaridor ma'lumotlari
+
+---
+
+## **v2.5.x va oldingi seriyalar**
+
+- 🍔 **Fastfood savdo rejimi** — tezkor buyurtma va darhol to'lov
+- 1️⃣ **Navbat tizimi** — mijozga raqam berish va navbat ekrani
+- 📱 **Oshxonaga yuborish** — buyurtmani printer orqali oshxonaga chiqarish
+- 📊 **Monitoring** — savdo, xodimlar, mahsulotlar hisobotlari
+- 🌐 **Ko'p tilli** — O'zbek, Rus, Ingliz tillari
+
+---
+
+Biznex POS va Fastfood doimiy yangilanib, takomillashib bormoqda!

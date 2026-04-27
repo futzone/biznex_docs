@@ -9,7 +9,27 @@ Bu yerda **docs.biznex.uz** qo'llanmasining versiyalari va har bir yangilanishda
 
 ---
 
-## **v1.2 (Joriy versiya)**
+## **v1.3 (Joriy versiya)**
+
+📅 **2026-yil aprel**
+
+### Yangi bo'limlar va yangilanishlar
+- 🖥 **Terminal monitoring** — 12-chi monitoring sahifasi qo'shildi (COM port to'lov terminallari holati)
+- 💰 **Maosh hisoblash** — xodim monitoringiga maosh/komissiya hisoblash dialogi haqida ma'lumot
+- 🔒 **Admin qulflanish vaqti** — sozlamalar sahifasida faolsizlik muddati jadvali (30 sek — 24 soat)
+- 🌐 **Tarmoq QR-kodi** — sozlamalar tarmoq bo'limida QR-kod generatsiyasi tavsifi
+- 🖧 **COM port terminal sozlamalari** — yangi bo'lim: terminalga serial port orqali ulanish sozlamalari
+- 🖨️ **Ikki printer** — printer sozlamalarida 2 ta printer qo'llab-quvvatlanishi qayd etildi
+- 🍔 **Fastfood changelog** — versiyalar sahifasiga Fastfood ilovasi tarixi qo'shildi (v2.6.57 va oldingi)
+
+### Yangilangan sahifalar
+- 📊 **Asosiy hisobotlar** — 11 dan 12 monitoring sahifasiga yangilandi (terminal monitoring)
+- ⚙️ **Sozlamalar** — COM port, admin qulflanish, tarmoq QR, 2 printer bo'limlari kengaytirildi
+- 🛠 **Versiyalar** — POS v2.8.x yangi xususiyatlari va Fastfood bo'limi qo'shildi
+
+---
+
+## **v1.2**
 
 📅 **2026-yil mart**
 

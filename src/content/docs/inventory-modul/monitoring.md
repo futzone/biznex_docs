@@ -5,7 +5,7 @@ description: Biznex POS tizimidagi monitoring va asosiy hisobotlar — 11 ta tah
 
 # **Asosiy hisobotlar (Monitoring)**
 
-Monitoring bo'limi — biznesingizning faoliyatini **real vaqtda** kuzatish uchun mo'ljallangan. **11 ta alohida tahlil sahifasi** orqali savdo, moliya, xodimlar va boshqa ko'rsatkichlarni chuqur tahlil qilish mumkin.
+Monitoring bo'limi — biznesingizning faoliyatini **real vaqtda** kuzatish uchun mo'ljallangan. **12 ta alohida tahlil sahifasi** orqali savdo, moliya, xodimlar va boshqa ko'rsatkichlarni chuqur tahlil qilish mumkin.
 
 ---
 
@@ -66,12 +66,19 @@ Biznesingizning asosiy ko'rsatkichlari bir sahifada:
 - Xodim bo'yicha savdo summasi
 - O'rtacha buyurtma qiymati
 - Xodimlar samaradorligi taqqoslash
+- **Maosh hisoblash** — xodim savdolari asosida maosh va komissiya hisoblash dialogi
 
 ### 11. Fiskal monitoring
 - Fiskal cheklar holati
 - Z-hisobotlar tarixi
 - OFD sinxronizatsiya holati va oxirgi sinxronizatsiya vaqti
 - FM xotira holati
+
+### 12. Terminal monitoring
+- Ulangan to'lov terminallari holati (COM port orqali)
+- Terminal tranzaksiyalari tarixi
+- Har bir terminaldan o'tgan to'lovlar summasi
+- Terminal ulanish holati (faol / uzilgan)
 
 ---
 

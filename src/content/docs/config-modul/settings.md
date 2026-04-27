@@ -30,11 +30,15 @@ Biznex POS quyidagi tillarda ishlaydi:
 
 | Sozlama | Tavsif |
 |---------|--------|
-| **Printer tanlash** | Ulangan printerlar ro'yxati |
+| **Printer tanlash** | Ulangan printerlar ro'yxati (2 tagacha printer qo'llab-quvvatlanadi) |
 | **Chek kengligi** | 58mm yoki 80mm |
 | **Shrift** | Chek shrifti |
 | **Logo chop etish** | Chekda logo chiqarish yoqish/o'chirish |
 | **Avtomatik chop etish** | To'lovdan keyin avtomatik chek |
+
+:::tip
+**Ikki printer** sozlash imkoniyati mavjud — masalan, birinchi printer kassirga, ikkinchisi oshxonaga/bufetga chiqarish uchun ishlatilishi mumkin.
+:::
 
 ---
 
@@ -130,6 +134,30 @@ Soliq moduli bilan bog'liq qo'shimcha sozlamalar:
 
 ---
 
+## **Terminal (COM port) sozlamalari 🖧**
+
+Naqd bo'lmagan to'lov terminalini POS ga ulash uchun qo'llaniladigan sozlamalar.
+
+| Sozlama | Tavsifi |
+|---------|---------|
+| **Terminaldan foydalanish** | To'lov terminalini yoqish / o'chirish |
+| **COM port tanlash** | Ulangan serial portlar ro'yxatidan tanlash |
+| **Portni tekshirish** | Tanlamlgan port bilan ulanishni sinab ko'rish |
+| **Real-time holat** | Hozir qaysi port tanlangan ekranda ko'rinadi |
+
+### Qanday sozlanadi?
+
+1. **Sozlamalar → To'lov va Soliq** bo'limiga kiring.
+2. **"Terminaldan foydalanish"** tugmasini yoqing.
+3. **"COM port tanlash"** ro'yxatidan terminalga mos portni tanlang.
+4. **"Tekshirish"** tugmasini bosib ulanishni tasdiqlang.
+
+:::note
+COM port ro'yxati qurilmaga ulangan portlardan avtomatik aniqlanadi. Agar port ko'rinmasa — terminal ulanganligini va drayveri o'rnatilganini tekshiring.
+:::
+
+---
+
 ## **Omborxona sozlamalari**
 
 | Sozlama | Tavsifi |
@@ -152,12 +180,18 @@ Presetlar **Sozlamalar > Tezkor presetlar** bo'limidan boshqariladi.
 
 ---
 
-## **Tarmoq sozlamalari**
+## **Tarmoq sozlamalari 🌐**
 
 | Sozlama | Tavsifi |
 |---------|---------|
 | **API manzili** | Server ulanish manzili |
 | **Tarmoq interfeysi** | Qaysi tarmoq interfeysi ishlatilishi |
+| **Mahalliy IP manzil** | Qurilmaning lokal tarmoqdagi IP adresi (ko'chirish tugmasi bilan) |
+| **QR-kod** | Lokal tarmoq manziliga tezkor kirish uchun QR-kod generatsiya qilish |
+
+:::tip
+**QR-kod** funksiyasi yordamida mobil qurilmani yoki boshqa kompyuterni bir vaqtda POS tarmog'iga ulash juda oson — QR-kodni skanerlash kifoya.
+:::
 
 ---
 
@@ -179,10 +213,24 @@ Biznex POS ni yangilash:
 
 ---
 
-## **Xavfsizlik**
+## **Xavfsizlik va Admin sozlamalari 🔒**
 
 - **PIN-kod uzunligi** — 4 dan 6 gacha xonali (sozlanadi)
-- **Avtomatik chiqish** — belgilangan vaqt davomida faolsizlikdan keyin tizimdan avtomatik chiqish
+- **Avtomatik qulflanish vaqti** — faolsizlikdan so'ng tizim qulflanganga qadar kutish muddati
+
+| Vaqt | Muddati |
+|------|---------|
+| 30 soniya | Eng tez qulflanish |
+| 1 daqiqa | — |
+| 5 daqiqa | — |
+| 15 daqiqa | — |
+| 30 daqiqa | — |
+| 1 soat | — |
+| 2 soat | — |
+| 4 soat | — |
+| 8 soat | — |
+| 24 soat | Deyarli avtomatik qulflanmaydi |
+
 - **API manzili** — server ulanish sozlamalari
 
 ---
