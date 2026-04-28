@@ -19,15 +19,32 @@ Qurilmalar va tizimlar uchun qonunchilikda belgilangan texnik talablar.
 
 ## **11. Markirovka belgisi**
 
-Raqamli markirovka qilinadigan tovarlar sotilganda kassa chekida **markirovka belgisi (kodi)** aks ettirilishi shart.
+Raqamli markirovka qilinadigan tovarlar sotilganda kassa chekida **markirovka belgisi (kodi)** aks ettirilishi shart. Bu — **VM 2020-yil 31-dekabrdagi 833-sonli qarori**ga muvofiq joriy etilgan **NIS "ASL BELGISI"** monitoring tizimi.
 
-**Qoidalar:**
+**Asosiy qoidalar:**
 
 | Qoida | Tavsifi |
 |-------|---------|
 | Majburiy ko'rsatish | Markirovka kodi ko'rsatilmasa, chek shakllantirilmaydi |
-| Dublikat taqiqi | Bitta chekda ikkita bir xil markirovka kodi bo'lishi **mumkin emas** |
+| `Label` maydoni | Chekda **bo'sh bo'lmagan** `label` maydoni bo'lishi shart — aks holda "ASL BELGISI" tovarning sotilganini qayd etmaydi |
+| `Barcode` (GTIN) | Sotilgan mahsulotning shtrix-kodi alohida `Barcode` maydonida ko'rsatiladi |
+| Dublikat taqiqi | Bitta chekda yoki turli cheklarda ikkita bir xil KM bo'lishi **mumkin emas** |
+| Donalab kiritish | Har bir mahsulot birligi alohida skanerlanadi — KM noyob |
 | Yaroqlilik nazorati | Skaner tovar yaroqlilik muddati o'tganini aniqlasa, chek chop etilishi **bloklanadi** |
+| Qaytarish | Faqat **dastlabki sotuv qilingan NKM** orqali, KM majburiy ko'rsatiladi |
+
+**`Label` maydoni formati:**
+
+| Talab | Qiymat |
+|-------|--------|
+| Maksimal uzunligi | **63 belgi** |
+| Tarkibi | KM ning kesilgan qismi (mahsulot kodi + seriya raqami), to'liq KM emas |
+| Boshqaruvchi belgilar | Mavjud bo'lsa — ekranlashtiriladi |
+| KM olib tashlanadigan qismlar | AI91, AI92, AI93 va undan keyingi qismlar (kriptografik kalit) |
+
+:::tip
+Markirovka, `Label` maydonining kesish algoritmi va tovar guruhlariga ko'ra formatlar bo'yicha to'liq ma'lumot: [Raqamli markirovka](/qonunchilik-modul/markirovka). Restoran, bar, kafe uchun quyib sotish: [Quyib sotish](/qonunchilik-modul/quyib-sotish).
+:::
 
 ---
 

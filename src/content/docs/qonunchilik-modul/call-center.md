@@ -44,10 +44,29 @@ Korxonaning **soliq raqami**. Chekda albatta bo'lishi kerak.
 
 ### "Markirovka xatosi" chiqyapti
 
-- **Markirovka kodi** — maxsus belgilangan tovarlar uchun kerak
+- **Markirovka kodi** — maxsus belgilangan tovarlar uchun kerak (alkogol, pivo, tamaki, dorivor, suv, maishiy texnika)
 - Skaner tovar **yaroqlilik muddati o'tganini** aniqlasa — sotuvni bloklaydi
-- Bitta chekda **ikki bir xil markirovka kodi** bo'lishi mumkin emas
+- Bitta chekda yoki turli cheklarda **ikki bir xil markirovka kodi** bo'lishi mumkin emas (dublikat)
+- `Label` bo'sh bo'lsa — "ASL BELGISI" tovarning sotilganini qayd etmaydi
 - Yechim: tovar markirovkasini tekshiring, muddati o'tgan bo'lsa sotib bo'lmaydi
+
+### Bar/restoranda quyib sotish — qanday ishlaydi?
+
+- Shisha **ochilganda** — KM skanerlanadi va **avans cheki** chiqariladi (narx 0)
+- Mehmonga porsiya sotilganda — **oddiy fiskal chek** (ml/litr, KM SIZ)
+- Bir shishadan ko'p marta sotsangiz ham — KM faqat **bir marta** skanerlanadi
+- Batafsil: [Quyib sotish](/qonunchilik-modul/quyib-sotish)
+
+### Mijoz markirovkasiz tovar so'rasa-chi?
+
+- Majburiy markirovkaga tegishli tovarni **markirovkasiz sotish — qonunbuzarlik**
+- Faqat ESF (elektron schyot-faktura) orqali xarid qilingan tovar sotiladi
+- Yetkazib beruvchidan ESF talab qiling
+
+### "Noto'g'ri MXIK" jarimasi nima?
+
+- 2023-yil 1-martdan boshlab — chek yoki EHF da **noto'g'ri MXIK** uchun realizatsiya qiymatining **1%** jarima (Soliq kodeksi 223-modda 5-qism)
+- Yechim: [tasnif.soliq.uz](https://tasnif.soliq.uz) dan amaldagi MXIK ni tekshirish
 
 ### Mijoz "chek haqiqiymi?" deb so'rayapti
 

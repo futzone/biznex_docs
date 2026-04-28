@@ -82,6 +82,7 @@ Bu bo'limda quyidagi mavzular batafsil yoritilgan:
 - [**FDS xizmati**](/tax-modul/fds/) — yangi avlod fiskal REST API xizmati
 - [**MXIK kodlar**](/tax-modul/mxik/) — mahsulotlarga MXIK kod berish, qidirish va kiritish
 - [**Paket kodlar**](/tax-modul/package-codes/) — qadoqlash kodlari va ularning ahamiyati
+- [**Markirovka**](/tax-modul/markirovka/) — Data Matrix, "ASL BELGISI" va `Label` maydoni bilan ishlash
 - [**Fiskal chek**](/tax-modul/fiscal-receipt/) — fiskal chek tarkibi va talablar
 
 ---

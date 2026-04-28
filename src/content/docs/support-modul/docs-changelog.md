@@ -9,9 +9,31 @@ Bu yerda **docs.biznex.uz** qo'llanmasining versiyalari va har bir yangilanishda
 
 ---
 
-## **v1.3 (Joriy versiya)**
+## **v1.4 (Joriy versiya)**
 
-📅 **2026-yil aprel**
+📅 **2026-yil 28-aprel**
+
+### Yangi bo'limlar (markirovka va javobgarlik)
+
+ASL BELGISI rasmiy hujjatlari (`meta/soliq/`) asosida 4 ta yangi sahifa qo'shildi:
+
+- 🏷️ **Raqamli markirovka (qonunchilik)** — Data Matrix, NIS "ASL BELGISI", `Label` maydoni formati va kesish algoritmi, tovar guruhlari (alkogol, pivo, tamaki, dorivor, suv, maishiy texnika), KITU formatlari (BAT, PMI, JTI, Gulbahar, T&W), cisType aniqlash
+- 🍷 **Quyib sotish** — restoran/bar/kafe uchun avans cheki mexanizmi, 8 bosqichli yo'riqnoma (my3.soliq.uz arizasi, "ASL BELGISI" ro'yxat, kassa sozlash), realistik stsenariylar (bar bokal sotuvi, restoran kokteyli, mehmonxona minibari)
+- ⚖️ **Jarima va javobgarlik** — Soliq kodeksi 223-modda 5-qismi (1% jarima 2023-yil 1-martdan), markirovka qoidalarini buzganlik, eskirgan kassa (2022/2023 chegarasi), Davlat reyestriga kiritilmagan tizim, smena yopmaslik oqibatlari
+- 🏷️ **Markirovka (tax-modul)** — Biznex POS da Data Matrix skanerlash, mahsulotni sozlash, `Label` avtomatik kesish (`OfdLabelNormalizer`), qaytarish, monitoring va tez-tez uchraydigan xatolar
+
+### Yangilangan sahifalar
+- 📜 **Qonunchilik asoslari** — VM 833-sonli, 201-sonli, 489-sonli, 249-sonli qarorlari va Soliq kodeksi 223-moddasi normativ jadvali qo'shildi
+- ⚙️ **Texnik talablar** — `Label` maydoni formati (63 belgi limit, KM ning kesilgan qismi), GTIN/Barcode, dublikat taqiqi, donalab kiritish
+- 🧾 **Soliq integratsiyasi (overview)** — Markirovka sahifasiga havola qo'shildi
+- 📞 **Call Center FAQ** — markirovkasiz tovar, MXIK jarima, quyib sotish savollari kengaytirildi
+- 📂 Sidebar — Qonunchilik bo'limiga 3 ta yangi sahifa, Soliq bo'limiga 1 ta yangi sahifa qo'shildi
+
+---
+
+## **v1.3**
+
+📅 **2026-yil aprel (boshi)**
 
 ### Yangi bo'limlar va yangilanishlar
 - 🖥 **Terminal monitoring** — 12-chi monitoring sahifasi qo'shildi (COM port to'lov terminallari holati)

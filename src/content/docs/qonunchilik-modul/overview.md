@@ -9,9 +9,19 @@ O'zbekistonda savdo va xizmat ko'rsatish sohasida faoliyat yurituvchi barcha tad
 
 ---
 
-## **Asosiy normativ hujjat**
+## **Asosiy normativ hujjatlar**
 
 Ma'lumotlarning poydevori **O'zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 23-noyabrdagi 943-sonli qarori** — *"Onlayn nazorat-kassa mashinalari va virtual kassa tizimi qo'llanilishini ta'minlash chora-tadbirlari to'g'risida"* hisoblanadi.
+
+Qo'shimcha asosiy qarorlar:
+
+| Qaror | Mavzusi |
+|-------|---------|
+| **VM 943-sonli qarori (23.11.2019)** | Onlayn-NKM va virtual kassa tizimini joriy etish |
+| **VM 833-sonli qarori (31.12.2020)** | Raqamli markirovka, NIS "ASL BELGISI" va sotuv monitoringi |
+| **VM 201-sonli qarori (08.03.2019)** | Mahsulotlarni transport qadog'ida sotish (KITU formati) |
+| **VM 489-sonli qarori (14.08.2020)** va **249-son (28.04.2021)** | EHF, elektron shartnomalar va NKM cheklarida MXIK aks ettirish |
+| **Soliq kodeksi 223-modda 5-qism** | Noto'g'ri MXIK uchun jarima — realizatsiya qiymatining 1% (01.03.2023 dan) |
 
 ---
 
@@ -69,3 +79,14 @@ Qonunchilikda ishlatiladigan barcha asosiy atamalar 943-sonli qarorning **1-ilov
 | 22 | Ikkilamchi tizimlar | [Amaliy qoidalar](/qonunchilik-modul/amaliy-qoidalar) |
 | 23 | Kvitansiya daftari | [Amaliy qoidalar](/qonunchilik-modul/amaliy-qoidalar) |
 | 24 | To'lov shakllari | [Amaliy qoidalar](/qonunchilik-modul/amaliy-qoidalar) |
+
+---
+
+## **Qo'shimcha mavzular**
+
+| Mavzu | Sahifa |
+|-------|--------|
+| Raqamli markirovka, Data Matrix, `Label` maydoni | [Raqamli markirovka](/qonunchilik-modul/markirovka) |
+| Restoran, bar, kafe uchun quyib sotish | [Quyib sotish](/qonunchilik-modul/quyib-sotish) |
+| Jarimalar, javobgarlik, qoidabuzarlik oqibatlari | [Jarima va javobgarlik](/qonunchilik-modul/jarima) |
+| Tezkor qo'llanma (Call Center) | [Call Center qo'llanma](/qonunchilik-modul/call-center) |
