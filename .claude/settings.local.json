@@ -13,7 +13,11 @@
       "Bash(awk -F'AppLocales\\\\.' '{print $2}')",
       "Bash(sed 's/\\\\.tr\\(\\).*//')",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "PowerShell(npx astro build 2>&1 | Select-Object -Last 30)",
+      "PowerShell(npx astro build 2>&1 | Select-Object -Last 20)",
+      "PowerShell(Test-Path *)",
+      "PowerShell(npx astro build 2>&1 | Select-Object -Last 5)"
     ]
   }
 }

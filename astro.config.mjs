@@ -203,6 +203,13 @@ export default defineConfig({
 				},
 
 				{
+					label: 'Xodimlar uchun',
+					items: [
+						{ label: '🧪 Sinov savollari (Support)', slug: 'xodimlar-modul/test-savollar' },
+					],
+				},
+
+				{
 					label: 'Boshqalar',
 					items: [
 						{ label: '🛠 Versiyalar', slug: 'support-modul/changelog' },
